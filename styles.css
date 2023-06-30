@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
+
+*{
+padding:0;
+margin:0;
+text-decoration:none;
+box-sizing:border-box;
+
+
+}
+
+body{
+    background-color:#274c43;
+}
+
+.main-container{
+    width:100vw;
+    height:550px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:flex-start;
+
+}
+
+.forca-container{
+    width:100%;
+    height:300px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.forca-tronco{
+    width:15px;
+    background-color:#fff;
+    height:175px;
+}
+
+.forca-superior{
+    width:50px;
+    height:15px;
+    background-color:#fff;
+    margin-top:-160px;
+
+}
+
+
+.palavra-container{
+    width:100%;
+    height:150px;
+    background-color:#00f;
+}
+
+#input-container{
+    margin-top:25px;
+    width:100%;
+    height:75px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+label{
+    color:#fff;
+    font-family: 'Schoolbell', cursive;
+    font-size:1rem;
+}
+
+input{
+    border-radius:10px;
+    outline:none;
+    
+}
+
+
+
+#input-secreto{
+    width:150px;
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    
+    
+
+    
+    
+
+}
+
+#input-caracther{
+    width:150px;
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    display:none;
+    
+}
+
+footer{
+    margin-top:15px;
+    width:100%;
+    height:60px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+   
+
+}
+
+.footer-span{
+    color:#fff;
+    font-size:1rem;
+    font-family: 'Schoolbell', cursive;
+
+}
