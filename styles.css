@@ -15,7 +15,7 @@ body{
 
 .main-container{
     width:100vw;
-    height:550px;
+    height:470px;
     display:flex;
     flex-direction:column;
     align-items:center;
@@ -23,60 +23,61 @@ body{
 
 }
 
-.forca-container{
+#forca-container{
     width:100%;
     height:300px;
     display:flex;
     align-items:center;
     justify-content:center;
+   
+    
 }
 
-.forca-tronco{
-    width:15px;
-    background-color:#fff;
-    height:175px;
+.forca{
+    margin-top:50px;
+    width:650px;
+    height:400px;
 }
 
-.forca-superior{
-    width:50px;
-    height:15px;
-    background-color:#fff;
-    margin-top:-160px;
-
-}
 
 
 .palavra-container{
     width:100%;
-    height:150px;
+    height:130px;
     background-color:#00f;
 }
 
 #input-container{
-    margin-top:25px;
+    
     width:100%;
-    height:75px;
+    height:250px;
     display:flex;
     justify-content:center;
     align-items:center;
+    margin-bottom:25px;
+    column-gap:40px;
 }
 
 label{
     color:#fff;
     font-family: 'Schoolbell', cursive;
     font-size:1rem;
+    margin-bottom:5px;
 }
 
 input{
-    border-radius:10px;
+    border-radius:15px;
     outline:none;
-    
+    margin-bottom:5px;
+    width:100%;
+    height:21px;
+
 }
 
 
 
 #input-secreto{
-    width:150px;
+    width:250px;
     height:100%;
     display:flex;
     justify-content:center;
@@ -84,14 +85,15 @@ input{
     flex-direction:column;
     
     
+    
 
     
     
 
 }
 
-#input-caracther{
-    width:150px;
+#input-caracter{
+    width:250px;
     height:100%;
     display:flex;
     justify-content:center;
@@ -99,10 +101,11 @@ input{
     flex-direction:column;
     display:none;
     
+    
 }
 
 footer{
-    margin-top:15px;
+    margin-top:10px;
     width:100%;
     height:60px;
     display:flex;
@@ -116,6 +119,26 @@ footer{
     color:#fff;
     font-size:1rem;
     font-family: 'Schoolbell', cursive;
+
+}
+
+button{
+    margin-top:10px;
+    width:130px;
+    height:60px;
+    background-color:#fff;
+    border-radius:15px;
+    font-family: 'Schoolbell', cursive;
+    font-size:1.2rem;
+    transition:0.5s;
+    color:#000;
+}
+
+button:hover{
+    cursor:pointer;
+    background-color: #000;
+    color:#fff;
+    border-color:#fff;
 
 }
 

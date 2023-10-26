@@ -9,25 +9,30 @@
 
     <body>
         <div class="main-container">
-            <div class="forca-container">
-                <div class="forca-tronco"></div>
-                <div class="forca-superior"></div>
+            <div id="forca-container">
+               <img class="forca" src="./forca.png" alt="forca-imagem" />
+               
                
             </div>
-            <div class="palavra-container"></div>
-            <div id="input-container">
-                <div id="input-secreto">
-                    <label for="palavra-secreta">Jogador, insira a palavra secreta</label>
-                    <input id="palavra-secreta" type="password" name="secret-word" />
-                </div>
-                
-                <div id="input-caracther">
-                    <label for="insira-caracther">jogador, insira uma letra</label>
-                    <input id="insira-caracther" type="text">
-                </div>
-          
 
+            <div class="palavra-container"></div>
+            
+        </div>
+
+        <div id="input-container">
+            <div id="input-secreto">
+                <label for="palavra-secreta">Jogador, insira a palavra secreta</label>
+                <input id="palavra-secreta" name="palavra" type="text" />
+                <button id="enviar">Enviar</button>
             </div>
+            
+            <div id="input-caracter">
+                <label for="letra">jogador, insira uma letra</label>
+                <input id="letra" name="letra" type="text" maxlength="1" disabled />
+                <button id="char-button">Enviar</button>
+            </div>
+      
+
         </div>
 
         <footer>
