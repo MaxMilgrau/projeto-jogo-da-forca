@@ -15,11 +15,12 @@ body{
 
 .main-container{
     width:100vw;
-    height:470px;
+    height:550px;
     display:flex;
     flex-direction:column;
     align-items:center;
     justify-content:flex-start;
+
 
 }
 
@@ -29,33 +30,44 @@ body{
     display:flex;
     align-items:center;
     justify-content:center;
-   
+ 
     
 }
 
 .forca{
-    margin-top:50px;
+    margin-top:243px;
     width:650px;
     height:400px;
 }
-
-
-
-.palavra-container{
+.forca-image{
     width:100%;
-    height:130px;
-    background-color:#00f;
+    height:100%;
+    
+}
+
+
+
+#palavra-container{
+    width:100%;
+    height:200px;
+    background-color:#274c43;
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:center;
+    column-gap:5px;
+    row-gap:3px;
 }
 
 #input-container{
-    
     width:100%;
     height:250px;
     display:flex;
     justify-content:center;
     align-items:center;
-    margin-bottom:25px;
+    margin-bottom:30px;
     column-gap:40px;
+    
 }
 
 label{
@@ -92,14 +104,19 @@ input{
 
 }
 
-#input-caracter{
+#input-caracter-container{
     width:250px;
+    height:100%;
+    display:none;
+}
+#input-caracter{
+    width:100%;
     height:100%;
     display:flex;
     justify-content:center;
     align-items:center;
     flex-direction:column;
-    display:none;
+    
     
     
 }
@@ -139,6 +156,50 @@ button:hover{
     background-color: #000;
     color:#fff;
     border-color:#fff;
+
+}
+
+
+.forca-2{
+    display:none;
+}
+
+.forca-3{
+    display:none;
+}
+
+.forca-4{
+    display:none;
+}
+
+.forca-5{
+    display:none;
+}
+
+.forca-6{
+    display:none;
+}
+
+.forca-7{
+    display:none;
+}
+
+.letra-container{
+    width:35px;
+    height:35px;
+    border-bottom-color:#fff;
+    border-bottom-style:solid;
+    border-bottom-width:3px;
+    color:#274c43;
+    padding:5px 0;
+    background-color:#274c43;
+    font-family: 'Schoolbell', cursive;
+    text-align:center;
+    font-size:1.3rem;
+    user-select:none;
+ 
+
+    
 
 }
 

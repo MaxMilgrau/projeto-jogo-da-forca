@@ -10,28 +10,66 @@
     <body>
         <div class="main-container">
             <div id="forca-container">
-               <img class="forca" src="./forca.png" alt="forca-imagem" />
+                
+                <div class="forca forca-1">
+                    <img class="forca-image" src="./forca.png" alt="forca-imagem" />
+                </div>
+
+                <div class="forca forca-2">
+                    <img class="forca-image" src="./head.png" alt="head" />
+                </div>
+
+                <div class="forca forca-3">
+                    <img class="forca-image" src="./body.png" alt="body" />
+                </div>
+
+                <div class="forca forca-4">
+                    <img class="forca-image" src="./left-arm.png" alt="left-arm" />
+                </div>
+
+                <div class="forca forca-5">
+                    <img class="forca-image" src="./right-arm.png" alt="right-arm" />
+                </div>
+
+                <div class="forca forca-6">
+                    <img class="forca-image" src="./left-leg.png" alt="left-leg" />
+                </div>
+
+                <div class="forca forca-7">
+                    <img class="forca-image" src="./right-leg.png" alt="right-leg" />
+                </div>
+
+
+
+
+            
+               
                
                
             </div>
 
-            <div class="palavra-container"></div>
             
+            <div id="palavra-container"></div>
         </div>
+
+        
 
         <div id="input-container">
             <div id="input-secreto">
                 <label for="palavra-secreta">Jogador, insira a palavra secreta</label>
-                <input id="palavra-secreta" name="palavra" type="text" />
+                <input id="palavra-secreta" name="palavra" type="text" maxlength="30" />
                 <button id="enviar">Enviar</button>
             </div>
             
-            <div id="input-caracter">
-                <label for="letra">jogador, insira uma letra</label>
-                <input id="letra" name="letra" type="text" maxlength="1" disabled />
-                <button id="char-button">Enviar</button>
+            <div id="input-caracter-container">
+                <div id="input-caracter">
+                    <label for="letra">jogador, insira uma letra</label>
+                    <input id="letra" name="letra" type="text" maxlength="1" disabled />
+                    <button id="char-button">Enviar</button>
+                </div>
+          
             </div>
-      
+          
 
         </div>
 
