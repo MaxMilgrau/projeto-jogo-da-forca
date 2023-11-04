@@ -18,7 +18,7 @@ let repetidaContainer=[];
 
 
 window.onload= () =>{
-    window.alert("REGRAS:\n\n1-um jogador deve colocar um nome da coisa/lugar/midia enquanto os outros tentam adivinhar;\n\n2-as condições de vitória são, o jogador que escolheu a palavra deve esperar que o jogador(es) adversário erre 6 vezes, enquanto o adivinhador deve preencher a palavra sem chegar a esse limite de erros;\n\n3-todos os jogadores não podem colocar 'espaço' ao invés coloque '-' para representar espaços;\n\n4-todos os jogadores não devem colocar characteres maisculos em suas respectivas caixas\n\n5-o adivinhador só consegue colocar um caracter por vez em sua respectiva caixa;\n\n6-a palavra escolhida/secreta não deve exceder o limite de 30 caracteres\n\n\n Bom jogo e Boa sorte!!");
+    window.alert("BEM VINDO AO JOGO DA FORCA!!!\n\nREGRAS:\n\n1-um jogador deve colocar um nome da coisa/lugar/midia enquanto os outros tentam adivinhar;\n\n2-as condições de vitória são, o jogador que escolheu a palavra deve esperar que o jogador(es) adversário erre 6 vezes, enquanto o adivinhador deve preencher a palavra sem chegar a esse limite de erros;\n\n3-todos os jogadores não podem colocar 'espaço' ao invés coloque '-' para representar espaços;\n\n4-todos os jogadores não devem colocar characteres maisculos em suas respectivas caixas\n\n5-o adivinhador só consegue colocar um caracter por vez em sua respectiva caixa;\n\n6-a palavra escolhida/secreta não deve exceder o limite de 30 caracteres\n\n\n Bom jogo e Boa sorte!!");
 
     
 
