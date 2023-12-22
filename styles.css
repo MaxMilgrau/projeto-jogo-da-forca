@@ -136,7 +136,7 @@ footer{
 
 .footer-span{
     color:#fff;
-    font-size:1rem;
+    font-size:1.1rem;
     font-family: 'Schoolbell', cursive;
 
 }
@@ -205,3 +205,48 @@ button:hover{
 }
 
 
+@media(max-width:414px){
+ 
+    .forca{
+      
+        width:500px;
+        height:320px;
+    }
+
+    .letra-container{
+        width:30px;
+        height:30px;
+        font-size:1rem;
+       
+     
+    
+        
+    
+    }
+    
+
+
+  }
+
+  @media(max-width:280px){
+ 
+    .forca{
+      
+        width:450px;
+        height:250px;
+    }
+
+    .letra-container{
+        width:27px;
+        height:27px;
+        font-size:1rem;
+       
+     
+    
+        
+    
+    }
+    
+
+
+  } 
